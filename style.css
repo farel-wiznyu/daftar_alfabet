@@ -118,18 +118,18 @@ img{
 
 @media (max-width: 600px) {
     .container{
-        /* display: grid; */
+        display: grid;
         grid-template-columns: auto auto;
-        /* justify-items: center; */
+        justify-items: center;
     }
 
     .card{
-        height: 260px;
-        width: 160px;
+        height: 250px;
+        width: 150px;
     }
 
     img{
-        width: 110px;
+        width: 100px;
         padding-top: 30px;
         padding-bottom: 30px;
 
