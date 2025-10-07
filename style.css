@@ -5,6 +5,7 @@
 
 html {
 	scroll-timeline: --page-scroll block;
+    scroll-behavior: smooth;
 }
 
 @keyframes grow-progress {
@@ -38,6 +39,12 @@ body{
 
 .judul{
     transition: all ease-in-out 0.2s;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+
 }
 
 .judul:hover{
